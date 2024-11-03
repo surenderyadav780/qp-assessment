@@ -52,7 +52,7 @@ This is a Java-based application designed for managing grocery items.
    # Basic Auth: Credentials for admin  admin/admin
    # API Endpoints
 1.     GET /api/grocery: Retrieve the list of grocery items.
-2.     POST /api/grocery: Add a new grocery item.
+2.     POST /api/grocery/admin/addItem: Add a new grocery item.
      Request Body: e.g.
         {
            "name": "Apple",
